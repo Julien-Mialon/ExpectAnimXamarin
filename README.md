@@ -229,13 +229,13 @@ Added `rotations`
 
 Author (xamarin binding): Julien Mialon
 
-[![Follow me on Twitter](https://raw.githubusercontent.com/Julien-Mialon/ExpectAnimXamarin/master/.assets/twitter.png)](https://twitter.com/Storm0x2A)
-[![Follow me on Linkedin](https://raw.githubusercontent.com/Julien-Mialon/ExpectAnimXamarin/master/.assets/linkedin.png)](https://fr.linkedin.com/in/julienmialon)
+[![Follow me on Twitter](https://raw.githubusercontent.com/Julien-Mialon/ExpectAnimXamarin/32f4d7c7c8f995858cfdbe55e987e4cd69e84153/.assets/twitter.png)](https://twitter.com/Storm0x2A)
+[![Follow me on Linkedin](https://raw.githubusercontent.com/Julien-Mialon/ExpectAnimXamarin/f543205233c75ecf453d330b5f3bfd4e7a746376/.assets/in.png)](https://fr.linkedin.com/in/julienmialon)
 
 Original author (android version): Florent Champigny
 
-[![Follow me on Twitter](https://raw.githubusercontent.com/Julien-Mialon/ExpectAnimXamarin/master/.assets/twitter.png)](https://twitter.com/florent_champ)
-[![Follow me on Linkedin](https://raw.githubusercontent.com/Julien-Mialon/ExpectAnimXamarin/master/.assets/linkedin.png)](https://fr.linkedin.com/in/florentchampigny)
+[![Follow me on Twitter](https://raw.githubusercontent.com/Julien-Mialon/ExpectAnimXamarin/32f4d7c7c8f995858cfdbe55e987e4cd69e84153/.assets/twitter.png)](https://twitter.com/florent_champ)
+[![Follow me on Linkedin](https://raw.githubusercontent.com/Julien-Mialon/ExpectAnimXamarin/f543205233c75ecf453d330b5f3bfd4e7a746376/.assets/in.png)](https://fr.linkedin.com/in/florentchampigny)
 
 #Original license
 
