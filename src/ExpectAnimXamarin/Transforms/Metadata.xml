@@ -1,5 +1,5 @@
 <metadata>
-  <!--
+	<!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
   
@@ -18,4 +18,14 @@
 	<attr path="/api/package[@name='com.github.florent37.expectanim.core.scale']" name="managedName">Florent37.XamarinExpectAnim.Core.Scale</attr>
 	<attr path="/api/package[@name='com.github.florent37.expectanim.listener']" name="managedName">Florent37.XamarinExpectAnim.Listener</attr>
 
+
+	<!-- Expectations.OutOfScreen => change int to GravityFlags -->
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core']/class[@name='Expectations']/method[@name='outOfScreen' and count(parameter)=1 and parameter[1][@type='int...']]/parameter[1]" 
+		  name="type">Android.Views.GravityFlags...</attr>
+
+	<!-- ScaleAnimExpectation.WithGravity => change int to GravityFlags -->
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.scale']/class[@name='ScaleAnimExpectation']/method[@name='withGravity' and count(parameter)=2]/parameter[1]"
+		  name="type">Android.Views.GravityFlags</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.scale']/class[@name='ScaleAnimExpectation']/method[@name='withGravity' and count(parameter)=2]/parameter[2]"
+		  name="type">Android.Views.GravityFlags</attr>
 </metadata>

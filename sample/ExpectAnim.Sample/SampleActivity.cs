@@ -37,9 +37,9 @@ namespace ExpectAnimSample
 
 			new ExpectAnim()
 				.Expect(_bottomLayout)
-				.ToBe(OutOfScreen((int)GravityFlags.Bottom))
+				.ToBe(OutOfScreen(GravityFlags.Bottom))
 				.Expect(_content)
-				.ToBe(OutOfScreen((int)GravityFlags.Bottom), Invisible())
+				.ToBe(OutOfScreen(GravityFlags.Bottom), Invisible())
 				.ToAnimation().SetNow();
 
 			_expectAnimMove = new ExpectAnim()

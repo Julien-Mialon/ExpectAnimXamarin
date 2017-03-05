@@ -60,7 +60,7 @@ namespace ExpectAnimSample
 
 				.Expect(_background)
 				.ToBe(
-					Height(_height).WithGravity(Java.Lang.Integer.ValueOf((int)GravityFlags.Left), Java.Lang.Integer.ValueOf((int)GravityFlags.Top))
+					Height(_height).WithGravity(GravityFlags.Left, GravityFlags.Top)
 				)
 				.ToAnimation();
 
