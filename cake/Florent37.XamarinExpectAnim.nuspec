@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>{id}</id>
+		<version>{version}</version>
+		<title>{id}</title>
+		<authors>{author}</authors>
+		<owners>{author}</owners>
+		<licenseUrl>https://github.com/Julien-Mialon/ExpectAnimXamarin/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/Julien-Mialon/ExpectAnimXamarin</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Describe your animation and just run.</description>
+		<releaseNotes>Initial release.</releaseNotes>
+		<copyright>Copyright 2017 Julien Mialon</copyright>
+		<tags>xamarin android expectation animation design material fluent</tags>
+		<dependencies>
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.1.1" />
+		</dependencies>
+	</metadata>
+</package>
