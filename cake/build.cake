@@ -9,7 +9,7 @@ const string DEPLOYMENT_DIRECTORY = "../build";
 const string DEPLOYMENT_LIB_DIRECTORY = DEPLOYMENT_DIRECTORY + "/lib/monoandroid";
 
 const string NUGET_NAME = "Florent37.XamarinExpectAnim";
-const string NUGET_VERSION = "1.0.0";
+const string NUGET_VERSION = "1.0.1";
 const string NUGET_AUTHOR = "Julien Mialon";
 
 /* constants for target names */

@@ -22,10 +22,46 @@
 	<!-- Expectations.OutOfScreen => change int to GravityFlags -->
 	<attr path="/api/package[@name='com.github.florent37.expectanim.core']/class[@name='Expectations']/method[@name='outOfScreen' and count(parameter)=1 and parameter[1][@type='int...']]/parameter[1]" 
 		  name="type">Android.Views.GravityFlags...</attr>
+	
+	<!-- Expectations.Scale => change int to GravityFlags -->
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core']/class[@name='Expectations']/method[@name='scale' and count(parameter)=4]/parameter[3]"
+		  name="type">Android.Views.GravityFlags</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core']/class[@name='Expectations']/method[@name='scale' and count(parameter)=4]/parameter[4]"
+		  name="type">Android.Views.GravityFlags</attr>
 
-	<!-- ScaleAnimExpectation.WithGravity => change int to GravityFlags -->
-	<attr path="/api/package[@name='com.github.florent37.expectanim.core.scale']/class[@name='ScaleAnimExpectation']/method[@name='withGravity' and count(parameter)=2]/parameter[1]"
+	<!-- Expectations.Height => change int to GravityFlags -->
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core']/class[@name='Expectations']/method[@name='height' and count(parameter)=3]/parameter[2]"
 		  name="type">Android.Views.GravityFlags</attr>
-	<attr path="/api/package[@name='com.github.florent37.expectanim.core.scale']/class[@name='ScaleAnimExpectation']/method[@name='withGravity' and count(parameter)=2]/parameter[2]"
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core']/class[@name='Expectations']/method[@name='height' and count(parameter)=3]/parameter[3]"
 		  name="type">Android.Views.GravityFlags</attr>
+
+	<!-- Expectations.Width => change int to GravityFlags -->
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core']/class[@name='Expectations']/method[@name='width' and count(parameter)=3]/parameter[2]"
+		  name="type">Android.Views.GravityFlags</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core']/class[@name='Expectations']/method[@name='width' and count(parameter)=3]/parameter[3]"
+		  name="type">Android.Views.GravityFlags</attr>
+
+	<!-- ScaleAnimExpectation fields => renaming fields -->
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.scale']/class[@name='ScaleAnimExpectation']/field[@name='keepRatio']"
+		  name="managedName">KeepRatioValue</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.scale']/class[@name='ScaleAnimExpectation']/field[@name='toDp']"
+		  name="managedName">ToDpValue</attr>
+
+	<!-- add missing PositionAnimExpectationOutOfScreen -->
+	<add-node path="/api/package[@name='com.github.florent37.expectanim.core.position']">
+		<class abstract="false" deprecated="not deprecated" extends="com.github.florent37.expectanim.core.position.PositionAnimExpectation" extends-generic-aware="com.github.florent37.expectanim.core.position.PositionAnimExpectation" final="false" name="PositionAnimExpectationOutOfScreen" static="false" visibility="public">
+			<constructor deprecated="not deprecated" final="false" name="PositionAnimExpectationOutOfScreen" static="false" type="com.github.florent37.expectanim.core.position.PositionAnimExpectationOriginal" visibility="public">
+				<parameter name="gravities" type="Android.Views.GravityFlags[]" />
+			</constructor>
+			<method abstract="false" deprecated="not deprecated" final="false" name="getCalculatedValueX" native="false" return="java.lang.Float" static="false" synchronized="false" visibility="public">
+				<parameter name="viewToMove" type="android.view.View">
+				</parameter>
+			</method>
+			<method abstract="false" deprecated="not deprecated" final="false" name="getCalculatedValueY" native="false" return="java.lang.Float" static="false" synchronized="false" visibility="public">
+				<parameter name="viewToMove" type="android.view.View">
+				</parameter>
+			</method>
+		</class>
+	</add-node>
+	
 </metadata>

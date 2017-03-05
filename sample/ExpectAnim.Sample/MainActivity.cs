@@ -13,7 +13,7 @@ namespace ExpectAnimSample
 			base.OnCreate(bundle);
 			
 			SetContentView (Resource.Layout.activity_main);
-
+			
 			FindViewById<Button>(Resource.Id.sample).Click += (sender, args) => StartActivity(typeof(SampleActivity));
 			FindViewById<Button>(Resource.Id.flip).Click += (sender, args) => StartActivity(typeof(FlipActivity));
 			FindViewById<Button>(Resource.Id.rotation).Click += (sender, args) => StartActivity(typeof(RotationActivity));
