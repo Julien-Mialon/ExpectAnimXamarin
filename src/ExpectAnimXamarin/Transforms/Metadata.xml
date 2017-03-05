@@ -1,0 +1,21 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<!-- Rename package -->
+	<attr path="/api/package[@name='com.github.florent37.expectanim']" name="managedName">Florent37.XamarinExpectAnim</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core']" name="managedName">Florent37.XamarinExpectAnim.Core</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.alpha']" name="managedName">Florent37.XamarinExpectAnim.Core.Alpha</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.anim3d']" name="managedName">Florent37.XamarinExpectAnim.Core.Anim3D</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.custom']" name="managedName">Florent37.XamarinExpectAnim.Core.Custom</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.position']" name="managedName">Florent37.XamarinExpectAnim.Core.Position</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.rotation']" name="managedName">Florent37.XamarinExpectAnim.Core.Rotation</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.core.scale']" name="managedName">Florent37.XamarinExpectAnim.Core.Scale</attr>
+	<attr path="/api/package[@name='com.github.florent37.expectanim.listener']" name="managedName">Florent37.XamarinExpectAnim.Listener</attr>
+
+</metadata>
